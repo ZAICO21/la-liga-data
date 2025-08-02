@@ -1,5 +1,8 @@
 # Análisis del Desempeño en La Liga Española
 
+Para visualizar el dashboard ingresar a:  
+[Dashboard de La Liga](https://app.powerbi.com/view?r=eyJrIjoiNmUyOWMwZTEtNjgxZi00OWNkLWJlNDAtZTQ1YjFkNDFjZGQ2IiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9)
+
 Este proyecto con fines académicos pretende recopilar y analizar la información de los clubes y jugadores de La Liga de la página de Transfermarkt mediante el uso de técnicas de web scrapping. El trabajo contempla la información desde la temporada 1999/2000 hasta la temporada 2023/2024, de esta manera se puede estudiar el rendimiento de los equipos y jugadores involucrados en La Liga durante este siglo.
 
 ### Tecnologías utilizadas:
@@ -52,7 +55,3 @@ Previsualización:
 <img width="1582" height="840" alt="image" src="https://github.com/user-attachments/assets/4c7997b4-cb52-487c-99d6-7f5bf3bd35a3" />
 <img width="1595" height="843" alt="image" src="https://github.com/user-attachments/assets/451ed53e-7ae1-4f16-ac99-e9ba9e249e8d" />
 
-
-
-Para visualizar el dashboard ingresar a:  
-[Dashboard de La Liga](https://app.powerbi.com/view?r=eyJrIjoiNmUyOWMwZTEtNjgxZi00OWNkLWJlNDAtZTQ1YjFkNDFjZGQ2IiwidCI6IjBlMGNiMDYwLTA5YWQtNDlmNS1hMDA1LTY4YjliNDlhYTFmNiIsImMiOjR9)
