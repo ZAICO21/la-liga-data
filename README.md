@@ -52,6 +52,3 @@ Esquema que muestra el proceso ETL del trabajo.
 ### Dashboard
 Previsualización:
 <img width="1602" height="847" alt="image" src="https://github.com/user-attachments/assets/2115ba97-5275-4df8-a97d-be8a05fc1bfc" />
-<img width="1582" height="840" alt="image" src="https://github.com/user-attachments/assets/4c7997b4-cb52-487c-99d6-7f5bf3bd35a3" />
-<img width="1595" height="843" alt="image" src="https://github.com/user-attachments/assets/451ed53e-7ae1-4f16-ac99-e9ba9e249e8d" />
-
