@@ -29,7 +29,7 @@ END
 
 EXEC SP_Total_Descensos 1999,2023;
 
--- Cantidad de títulos por club
+-- Cantidad de tÃ­tulos por club
 
 CREATE PROCEDURE SP_Titulos_Club (@yi SMALLINT, @yf SMALLINT)
 AS
