@@ -1,6 +1,6 @@
 USE [La Liga]
 
--- KPIs del Reporte de desempe駉 de jugadores de La Liga
+-- KPIs del Reporte de desempe帽o de jugadores de La Liga
 
 
 -- Lugar en la tabla
@@ -18,7 +18,7 @@ FROM goleadores_liga g
 WHERE g.nombre LIKE 'Cristiano Ronaldo'
 
 
--- Informaci髇 sobre goles por partido
+-- Informaci贸n sobre goles por partido
 
 CREATE PROCEDURE SP_Goles_Partido(@t INT, @jugador NVARCHAR(50))
 AS
@@ -32,7 +32,7 @@ END
 EXEC SP_Goles_Partido 2013, 'Cristiano%'
 
 
--- Informaci髇 sobre minutos por gol
+-- Informaci贸n sobre minutos por gol
 
 CREATE PROCEDURE SP_Minutos_Gol(@t INT, @jugador NVARCHAR(50))
 AS
@@ -46,7 +46,7 @@ END
 EXEC SP_Minutos_Gol 2013, 'Cristiano%'
 
 
--- Informaci髇 sobre cantidad de goles
+-- Informaci贸n sobre cantidad de goles
 
 CREATE PROCEDURE SP_Goles(@t INT, @jugador NVARCHAR(50))
 AS
@@ -60,7 +60,7 @@ END
 EXEC SP_Goles 2013, 'Cristiano%'
 
 
--- Informaci髇 sobre tipo de gol
+-- Informaci贸n sobre tipo de gol
 
 CREATE PROCEDURE SP_Tipo_Gol(@t INT, @jugador NVARCHAR(50))
 AS
@@ -79,7 +79,7 @@ END
 EXEC SP_Tipo_Gol 2013, 'Cristiano%'
 
 
--- Informaci髇 sobre participaci髇 activa en gol
+-- Informaci贸n sobre participaci贸n activa en gol
 
 CREATE PROCEDURE SP_Participacion_Gol(@t INT, @jugador NVARCHAR(50))
 AS
