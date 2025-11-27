@@ -1,9 +1,9 @@
 USE [La Liga]
 
--- KPIs del Reporte de desempeño de clubes de La Liga
+-- KPIs del Reporte de desempeÃ±o de clubes de La Liga
 
 
--- Información sobre partidos ganados por club en cierto periodo
+-- InformaciÃ³n sobre partidos ganados por club en cierto periodo
 
 SELECT c.club, SUM(c.ganados) AS partidos_ganados
 FROM clubes_liga c
@@ -13,7 +13,7 @@ WHERE cid.club LIKE 'FC Barcelona' AND (t.temporadas BETWEEN 1999 AND 2023)
 GROUP BY c.club
 
 
--- Información sobre el total de partidos jugados por club en cierto periodo
+-- InformaciÃ³n sobre el total de partidos jugados por club en cierto periodo
 
 SELECT c.club, SUM(c.partidos) AS partidos_jugados
 FROM clubes_liga c
@@ -23,7 +23,7 @@ WHERE cid.club LIKE 'FC Barcelona' AND (t.temporadas BETWEEN 1999 AND 2023)
 GROUP BY c.club
 
 
--- Información sobre la diferencia de goles por club en cierto periodo
+-- InformaciÃ³n sobre la diferencia de goles por club en cierto periodo
 
 SELECT c.club, SUM(c.diferencia_goles) AS diferencia_goles
 FROM clubes_liga c
@@ -53,6 +53,6 @@ SELECT	c.club,
 FROM clubes_liga c
 JOIN clubes_id_liga cid ON c.idClub = cid.id
 JOIN temporadas_liga t ON c.idTemporada = t.id
-WHERE cid.club LIKE '%Atlético Madrid%' AND (t.temporadas BETWEEN 1999 AND 2023)
+WHERE cid.club LIKE '%AtlÃ©tico Madrid%' AND (t.temporadas BETWEEN 1999 AND 2023)
 GROUP BY c.club
 
